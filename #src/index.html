@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 	@@include('_head.html',{
-	"title":"Главная"
+	"title":"Шифр Цезаря"
 	})
 	<body>
 		<div class="wrapper">
@@ -10,7 +10,7 @@
 				<section class="cipher">
 					<form action="#" class='cipher__container _container'>
 						<div class="cipher__top">
-							<h1 class="cipher__title">Ширф Цезаря</h1>
+							<h1 class="cipher__title">Шифр Цезаря</h1>
 							<div class="cipher__settings">
 								<div class="cipher__back">
 									<span>Назад</span>
@@ -19,7 +19,7 @@
 								</div>
 								<div class="cipher__shift">
 									<span>Сдвиг</span>
-									<input required min="1" class="cipher__input" name="shift" type="number">
+									<input required min="1" max="26" class="cipher__input" name="shift" type="number">
 								</div>
 							</div>
 						</div>
